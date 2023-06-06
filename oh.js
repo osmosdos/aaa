@@ -1,7 +1,7 @@
 let slider;
 let w;
 let osc, playing, freq, amp;
-var mic; // Microphone library
+let mic; // Microphone library
 
 let pos = 0;
 
