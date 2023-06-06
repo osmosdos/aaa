@@ -43,7 +43,7 @@ function draw() {
   // w= map(pos, 0, innerHeight/8, 30, 150, true );
 
 
-  //playOscillator();
+  playOscillator();
   freq = constrain(map(mouseX, 0, width, 100, 500), 100, 500);
   amp = constrain(map(mouseY, height, 0, 0, 1), 0, 1);
 
