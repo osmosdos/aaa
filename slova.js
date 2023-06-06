@@ -31,7 +31,7 @@ function setup() {
 
 function draw() {
   background(255);
-  image(img, 0, 0, innerWidth);
+  image(img, 0, 0, innerWidth, innerHeight);
   noStroke();
 
   // var vol = mic.getLevel();
