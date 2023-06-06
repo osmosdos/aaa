@@ -23,8 +23,8 @@ function setup() {
 
   frameRate(10);
 
-  // mic = new p5.AudioIn(); 
-  // mic.start(); // Load the library 
+  mic = new p5.AudioIn(); 
+  mic.start(); // Load the library 
 
   osc = new p5.Oscillator('sine');
 }
@@ -34,11 +34,11 @@ function draw() {
   //image(img, 0, 0);
   noStroke();
 
-  // var vol = mic.getLevel();
+  var vol = mic.getLevel();
 
-  //  w= map(vol, 0, 0.2, 30, 150 );
+  w= map(vol, 0, 0.2, 30, 150 );
 
-   w= map(mouseX, 0, innerWidth, 30, 160 );
+//    w= map(mouseX, 0, innerWidth, 30, 160 );
 
   // w= map(pos, 0, innerHeight/8, 30, 150, true );
 
