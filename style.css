@@ -1,0 +1,42 @@
+html, body {
+  background-color: rgb(230);
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  overflow:hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+canvas {
+  display: block;
+}
+p {
+  font-family: sans-serif;
+  font-size:2em;
+  color: white;
+  margin-bottom: 2 em;
+  margin-right: 2.5em;
+}
+
+#oh a {
+  color:white;
+}
+
+a {
+  color:lightgray;
+  text-decoration: none;
+}
+
+.meni a:hover {
+  color: greenyellow;
+}
+
+.meni {
+  position:fixed;
+  top: 1em;
+  right: 1.5em;
+  z-index: 1;
+}
