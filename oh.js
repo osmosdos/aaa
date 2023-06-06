@@ -36,7 +36,7 @@ function draw() {
 
   var vol = mic.getLevel();
 
-  w= map(vol, 0, 0.2, 30, 150 );
+  w= map(vol, 0, 0.3, 30, 150 );
 
 //    w= map(mouseX, 0, innerWidth, 30, 160 );
 
